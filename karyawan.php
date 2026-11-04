@@ -155,14 +155,14 @@ $karyawan = array_slice($semuaKaryawan, $awalData, $jumlahDataPerhalaman);
 
                         <!-- Jumlah Produk -->
                         <div class="col-lg-12 col-12">
-                            <div class="small-box bg-info">
+                            <div class="small-box bg-success">
                                 <div class="inner">
                                     <h3><?= (int) $jumlah_karyawan[0]["total"]; ?></h3>
                                     <p>karyawan</p>
                                 </div>
 
                                 <div class="icon">
-                                    <i class="fas fa-coffee"></i>
+                                    <i class="fas fa-users"></i>
                                 </div>
                             </div>
                         </div>

@@ -186,7 +186,7 @@ $menu = array_slice($semuaMenu, $awalData, $jumlahDataPerhalaman);
                         <div class="card-body">
 
                             <!-- Search -->
-                            <form method="GET" action="index.php" class="mb-3">
+                            <form method="GET" action="menu.php" class="mb-3">
                                 <div class="input-group">
                                     <input type="text" name="keyword" class="form-control"
                                         placeholder="Cari nama atau kategori menu...">
@@ -196,7 +196,7 @@ $menu = array_slice($semuaMenu, $awalData, $jumlahDataPerhalaman);
                                             <i class="fas fa-search"></i> Cari
                                         </button>
 
-                                        <a href="index.php#data-produk" class="btn btn-secondary">
+                                        <a href="menu.php" class="btn btn-secondary">
                                             Reset
                                         </a>
                                     </div>

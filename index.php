@@ -252,4 +252,4 @@ function query_db($query)
 
 </body>
 
-</html>
+</html> 
