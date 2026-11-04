@@ -28,7 +28,6 @@ function registrasi($data)
         return false;
     }
 
-    // enkripsi password
     $password = password_hash($password, PASSWORD_DEFAULT);
 
     mysqli_query($conn, "INSERT INTO users VALUES('', '$username', '$password')");

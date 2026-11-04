@@ -15,7 +15,7 @@ if (isset($_POST['submit'])) {
     if (edit_data($_POST) > 0) {
         echo "<script>
                 alert('Data sudah berhasil diubah!');
-                document.location.href = 'index.php';
+                document.location.href = 'menu.php';
             </script>";
     } else {
         echo "<script>

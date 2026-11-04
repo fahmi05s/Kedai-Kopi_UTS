@@ -12,7 +12,7 @@ $id_menu = $_GET['id_menu'];
 if (hapus_data($id_menu) > 0) {
     echo "<script>
             alert('Data sudah berhasil dihapus!');
-            document.location.href = 'index.php';
+            document.location.href = 'menu.php';
         </script>";
 
 } else {
